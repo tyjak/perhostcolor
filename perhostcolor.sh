@@ -10,10 +10,10 @@
 declare -a colors
 
 # color palette
-#colors=( 222222 222230 302222 223022 303022 302230 223030 )
+colors=( 002b36 222230 302222 222222 223022 303022 302230 223030 )
 
-# greyscale palette
-colors=( 222222 111111 333333 444444 111111 333333)
+# solarized palette
+#colors=( 002b36 073642 586e75 )
 
 # ugly hack to enable usage of "perhostcolor $@" in aliases/script
 input=`echo $@`
